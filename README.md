@@ -2,8 +2,8 @@
 For our project, we created a model that translates textual sentiment into a corresponding emoji. To build and evaluate the model, we utilized tweet data from Twitter, now known as X. We created and compared three different models to determine which would perform best: a Support Vector Machine (SVM), a BERT Sequence Classification model, and a Distilled BERT Sequence Classification model. Each model was chosen based on its ability to process languages and capture the contextual meaning behind words.
 
 ## Description of the files
-* The `data` folder contains the 42 CSV emoji files that we sourced from (Kaggle)[https://www.kaggle.com/datasets/ericwang1011/tweets-with-emoji/data]. Each file has tweets that correspond to the emoji mentioned in the CSV's title.
-* The `emoji_map.csv` file contains the emoji mapping data from the (Amsterdam University of Applied Sciences)[https://uvaauas.figshare.com/articles/dataset/Twemoji_Dataset/5822100]. It has data on the description of each emoji as well as its ucode.
+* The `data` folder contains the 42 CSV emoji files that we sourced from [Kaggle](https://www.kaggle.com/datasets/ericwang1011/tweets-with-emoji/data). Each file has tweets that correspond to the emoji mentioned in the CSV's title.
+* The `emoji_map.csv` file contains the emoji mapping data from the [Amsterdam University of Applied Sciences](https://uvaauas.figshare.com/articles/dataset/Twemoji_Dataset/5822100). It has data on the description of each emoji as well as its ucode.
 * The `Preprocessing.ipynb` file contains code for how we merged the datasets together and cleaned the data. Running this file will create the `merged_emoji_data.csv` file locally.
   * `merged_emoji_data.csv` is the final cleaned dataset that was used to train our models. It merges all of the data from the `data` folder as well as from `emoji_map.csv`.
 * The `SVM.ipynb` file contains code for our SVM model.
