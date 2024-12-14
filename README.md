@@ -16,3 +16,15 @@ For our project, we created a model that translates textual sentiment into a cor
 3. Navigate to the `SVM.ipynb` file. Run each cell in this file. This should process all of the data from `merged_emoji_data.csv`, split the data into training and testing datasets, and run the SVM model. It will output an accuracy for the results of the model. You can add more sentences to the `new_texts` list in the last cell of the file if you would like a demonstration of how the SVM model works. Running the last cell will output predicted emojis for every sentence in `new_texts`.
 4. Navigate to the `BertForSequenceClassification.ipynb` file. Run each cell in this file. This should process all of the data from `merged_emoji_data.csv`, split the data into training and testing datasets, tokenize the data, and run the BERT Sequence Classification model. It will output an accuracy after every iteration of an epoch. You can add more sentences to the `new_texts` list in the last cell of the file if you would like a demonstration of how the BERT Sequence Classification modelworks. Running the last cell will output predicted emojis for every sentence in `new_texts`.
 5. Navigate to the `DistilBertForSequenceClassification.ipynb` file. Run each cell in this file. This should process all of the data from `merged_emoji_data.csv`, split the data into training and testing datasets, tokenize the data, and run the Distilled BERT Sequence Classification model. It will output an accuracy after every iteration of an epoch. You can add more sentences to the `new_texts` list in the last cell of the file if you would like a demonstration of how the Distilled BERT Sequence Classification model works. Running the last cell will output predicted emojis for every sentence in `new_texts`.
+
+## References for Code
+### SVM
+- https://takelab.fer.hr/podium/examples/tfidf_example.html
+- https://machinelearningmastery.com/one-vs-rest-and-one-vs-one-for-multi-class-classification/
+### BERTForSequenceClassification 
+- https://huggingface.co/transformers/v3.3.1/training.html
+- https://huggingface.co/docs/transformers/v4.47.1/en/model_doc/bert#transformers.BertForSequenceClassification
+### DistilledBERTForSequenceClassification 
+- https://huggingface.co/docs/transformers/v4.47.1/en/model_doc/distilbert#transformers.
+
+Note: Utilized ChatGPT for initial hyperparameters, and further debugging
