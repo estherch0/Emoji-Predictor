@@ -1,4 +1,4 @@
-# Emoji Predictor
+# Bridging Text and Emotion: An Emoji Prediction Model
 For our project, we created a model that translates textual sentiment into a corresponding emoji. To build and evaluate the model, we utilized tweet data from Twitter, now known as X. We created and compared three different models to determine which would perform best: a Support Vector Machine (SVM), a BERT Sequence Classification model, and a Distilled BERT Sequence Classification model. Each model was chosen based on its ability to process languages and capture the contextual meaning behind words.
 
 ## Description of the files
