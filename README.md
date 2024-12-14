@@ -26,5 +26,6 @@ For our project, we created a model that translates textual sentiment into a cor
 - https://huggingface.co/docs/transformers/v4.47.1/en/model_doc/bert#transformers.BertForSequenceClassification
 ### DistilledBERTForSequenceClassification 
 - https://huggingface.co/docs/transformers/v4.47.1/en/model_doc/distilbert#transformers
+- https://www.analyticsvidhya.com/blog/2022/11/introduction-to-distilbert-in-student-model/
 
 Note: Utilized ChatGPT for initial hyperparameters, and further debugging
